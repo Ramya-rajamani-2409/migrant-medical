@@ -5,7 +5,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL
 const api = axios.create({
-  baseURL: '/api', // proxied to http://localhost:5000/api
+  baseURL: 'https://migrant-medical.onrender.com/api', // proxied to http://localhost:5000/api
 });
 
 // Automatically attach JWT token to every request
